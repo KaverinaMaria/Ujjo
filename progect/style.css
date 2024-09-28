@@ -1,118 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    color: #6da81f;
 }
 
-.navproduction {
-    display: flex;
+.header {
+    background-image: url("picture/headerimg.jpg");
     justify-content: space-between;
-    align-items: center;
-    color: #6da81f;
-
+    width:1920px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    width: 100%;
-    height: auto;
+.hp {
+    background-color: #F8F200;
 }
-
-.container img {
-    margin: 0 10px;
-}
-
-.production {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.navfooter {
-    display: flex;
-    justify-content: space-between;
-}
-
-@media (max-width: 320px) {
-    .navproduction {
-        font-size: 12px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 140px;
-    }
-
-    .production {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navfooter {
-        max-width: 100%;
-        display: inline-block;
-        justify-content: space-between;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-body {
-    font-size: 16px;
-}
-
-@media (max-width: 1440px) {
-    body {
-        font-size: 14px;
-    }
-
-    .container {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
-
-@media (max-width: 1024px) {
-    .container {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .image {
-        width: 50%;
-    }
-}
-
-@media (max-width: 786px) {
-    .image {
-        width: 100%;
-    }
-
-    .text {
-        margin-bottom: 20px;
-    }
-}
-
-
-@media (max-width: 320px) {
-    body {
-        font-size: 12px;
-    }
-
-    .container {
-        width: 98%;
-        margin: 0 auto;
-    }
-
-    .button {
-        padding: 8px 12px;
-    }
-}
-/*я хз что у меня с navfooter происходит и как это фиксить */
