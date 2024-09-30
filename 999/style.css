@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("picture/headerimg.jpg");
+    justify-content: space-between;
+    width: 1920px;
+}
+
+.hp {
+    background-color: #F8F200;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6da81f;
+    max-width: 1920px;
+    padding: 20px 110px;
+}
+.block1 {
+    max-width: 624px;
+    height: 200px;
+    background-color:#F8F200;
+    border: 2px solid #F8F200;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	max-height:1920px;
+	display: flex;
+	flex-direction: column;
+    justify-content:end;
+    clip-path: 
+    
+    
+  }
+  .container {
+    display: flex;
+    height: 1920px; 
+    background-color: #f0f0f0;
+  }
+  .block1{
+    position: relative;
+    top: 7px;
+    left: 976px;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+  }
+  .image {
+    background-image: url("picture/headerimg.jpg");
+    background-size: cover;
+    flex-grow: 1;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.container img {
+    margin: 0 10px;
+}
+
+.production {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+    .navproduction {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 140px;
+    }
+
+    .production {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navfooter {
+        max-width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 786px) {
+    .image {
+        width: 100%;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .button {
+        padding: 8px 12px;
+    }
+}
